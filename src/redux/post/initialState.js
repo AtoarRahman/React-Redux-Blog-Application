@@ -1,0 +1,51 @@
+const initialState = [
+    {
+        id: 1,
+        title: "Boost your conversion rate",
+        photo: 'https://images.unsplash.com/photo-1496128858413-b36217c2ce36?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1679&q=80',
+        category_id:1,
+        auth_id:1,
+        created_at:'25 Aug, 2022',
+    },
+    {
+        id: 2,
+        title: "How to use search engine optimization to drive sales",
+        photo: 'https://images.unsplash.com/photo-1547586696-ea22b4d4235d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1679&q=80',
+        category_id:1,
+        auth_id:2,
+        created_at:'12 Jul, 2022',
+    },
+    {
+        id: 3,
+        title: "Improve your customer experience",
+        photo: 'https://images.unsplash.com/photo-1657651516650-0f09a9d41a17?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1033&q=80',
+        category_id:2,
+        auth_id:1,
+        created_at:'21 Jul, 2022',
+    },
+    {
+        id: 4,
+        title: "Boost your conversion rate",
+        photo: 'https://images.unsplash.com/photo-1568301535854-2b01bb1d55bb?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1160&q=80',
+        category_id:3,
+        auth_id:2,
+        created_at:'25 Jul, 2022',
+    },
+    {
+        id: 5,
+        title: "Improve your customer experience",
+        photo: 'https://images.unsplash.com/photo-1597820334272-af87b2d917c1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1556&q=80',
+        category_id:2,
+        auth_id:3,
+        created_at:'11 Jul, 2022',
+    },
+    {
+        id: 6,
+        title: "How to use search engine optimization to drive sales",
+        photo: 'https://images.unsplash.com/photo-1568301535840-100fa9c64711?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1160&q=80',
+        category_id:3,
+        auth_id:3,
+        created_at:'05 Jul, 2022',
+    },
+];
+export default initialState;
